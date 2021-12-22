@@ -33,7 +33,7 @@ Variabel-variabel pada Gold Price dataset adalah sebagai berikut.
 
 Melakukan gold.info() untuk mengecek jenis tipe data apa saja yang ada pada dataset. Dan hasilnya adalah 5 data numerik yang dipakai adalah tipe float64.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/infodata.JPG)
+![image](https://github.com/kola283/portofolio/blob/main/images/infodata.JPG?raw=true)
 
 Lalu melakukan teknik pairplot() untuk melihat keterikatan tiap fitur yang ada terhadap target price dan hasilnya adalah 3 fitur yaitu Open, High dan Low memiliki korelasi positif. Sementara fitur Chg% memiliki pola persebaran yang acak.
 
