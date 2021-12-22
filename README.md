@@ -37,7 +37,7 @@ Melakukan gold.info() untuk mengecek jenis tipe data apa saja yang ada pada data
 
 Lalu melakukan teknik pairplot() untuk melihat keterikatan tiap fitur yang ada terhadap target price dan hasilnya adalah 3 fitur yaitu Open, High dan Low memiliki korelasi positif. Sementara fitur Chg% memiliki pola persebaran yang acak.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/korelasi.png)
+![image](https://user-images.githubusercontent.com/59044624/147038286-c9d62060-895a-4ca0-ab52-cdb6441f25b2.png)
 
 ## Data Preparation
 Disini dilakukan pembagian dataset menjadi data training dan data test dengan proporsi 80% data training dan 20% data latih dengan menggunakan teknik train_test_split. Hal ini sangat penting dilakukan untuk melakukan evaluasi model kedepannya. Selain menyiapkan data dengan membagi datanya, dilakukan satu teknik lagi yaitu Standarisasi. Dengan menggunakan teknik StandardScaler dari library Scikitlearn. Untuk menghindari kebocoran data maka kita melakukan teknik standarisasi pada data training terlebih dahulu dan melakukan standarisasi pada data test saat akan evaluasi model.
@@ -120,14 +120,14 @@ Variabel-variabel pada 7k Books dataset adalah sebagai berikut.
 
 Melakukan buku.info() untuk mengetahui jenis tipe data apa saja yang ada pada dataset. Dan hasilnya dataset memiliki 4 kolom berjenis float64, 1 kolom berjenis int64 dan 7 kolom berjenis object.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/infobuku.JPG?raw=True)
+![image](https://user-images.githubusercontent.com/59044624/147038366-b5695eff-6160-43e3-bb37-cedbba64df9a.png)
 
 ## Data Preparation
 Pada bagian ini tahap-tahap yang saya lakukan adalah sebagai berikut:
 1. Drop kolom yang tidak digunakan. Hal ini dilakukan agar sistem hanya fokus pada fitur yang penting untuk digunakan pada pemodelan dan juga beberapa kolom memiliki missing value hampir sampai setengah dari data. Kolom yang saya gunakan hanya 3 yaitu kolom title, authors dan categories.
 2. Dataset yang disiapkan akan dicek Missing Value nya. Dapat dilihat pada gambar di bawah bahwa terdapat beberapa missing value pada bagian authors dan categories.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/missingvalue.JPG?raw=true)
+![image](https://user-images.githubusercontent.com/59044624/147038402-97e9d6da-76cf-48f7-8c27-b48ad8bdddd8.png)
 
 Di bersihkan dengan fungsi dropna() karena missing value bisa berakibat fatal jika dibiarkan di dalam dataset.
 3. Menghapus data duplikat menggunakan fungsi drop_duplicates(). Hal ini saya lakukan karena ada beberapa buku yang memiliki judul yang sama.
@@ -140,13 +140,13 @@ Pada tahap ini adalah tahap pembuatan sistem rekomendasi sederhana berdasarkan k
 
 Teknik yang digunakan pada sistem rekomendasi ini adalah dengan menghitung derajat kesamaan (similarity degree) antar judul buku dengan teknik cosine similarity.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/cvec.JPG?raw=True)
+![image](https://user-images.githubusercontent.com/59044624/147038440-3130b0f2-d318-4eef-85b4-684b3d1a5e2c.png)
 
 Pada tahapan ini, kita menghitung cosine similarity dataframe cvec_matrix yang kita peroleh pada tahapan sebelumnya. Dengan satu baris kode untuk memanggil fungsi cosine similarity dari library sklearn, kita telah berhasil menghitung kesamaan (similarity) antar judul buku. Kode di atas menghasilkan keluaran berupa matriks kesamaan dalam bentuk array. 
 
 Selanjutnya adalah matriks kesamaan setiap judul buku dengan menampilkan judul buku dalam 5 sampel kolom (axis = 1) dan 10 sampel baris (axis=0).
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/metrik2.JPG?raw=True)
+![image](https://user-images.githubusercontent.com/59044624/147038483-e0f9f464-d370-493e-81a6-feab1d5c4ed0.png)
 
 Dapat dilihat hasilnya, pada nilai 1.0 itu menandakan bahwa judul buku tersebut memiliki kesamaan. Sedangkan pada nilai 0.0 itu menandakan bahwa judul buku tersebut tidak memiliki kesamaan. Begitulah cara metrik ini bekerja pada model.
 
@@ -154,11 +154,11 @@ Dapat dilihat hasilnya, pada nilai 1.0 itu menandakan bahwa judul buku tersebut 
 ## Evaluation
 Metrik yang akan kita gunakan pada prediksi ini adalah Precision. Precision didefinisikan dalam persamaan berikut
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/precision.png?raw=True)
+![image](https://user-images.githubusercontent.com/59044624/147038512-3047cc28-cbb9-4e66-a422-a60c46ad01d4.png)
 
 Ini adalah contoh rekomendasi buku dari pencarian buku 'Murder in mesopotamia'.
 
-![gambar](https://github.com/kola283/gambar/blob/main/bahan/rekomendasi.JPG?raw=True)
+![image](https://user-images.githubusercontent.com/59044624/147038533-9d286f02-bf44-45c4-9366-c0fbe9610f20.png)
 
 Buku 'Murder in Mesopotamia' memiliki kategori Detective and mystery stories. Lalu sistem rekomendasi juga akan merekomendasikan 5 judul buku yang memiliki kategori yang sama yaitu Detective and Mystery Stories.
 
