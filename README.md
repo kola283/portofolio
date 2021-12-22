@@ -1,7 +1,7 @@
 # kelvin_portofolio
 Data science portofolio
 
-# Project 1: [Predictive Analytics](https://github.com/kola283/Predictive-Analysis)
+# Project 1: [Predictive Analytics](https://colab.research.google.com/drive/1SMxeTdDj2fa88Mj2Cvn7Wb8_mMPJleKD)
 
 ## Domain Proyek
 Domain yang saya ambil di sini adalah pada bidang Ekonomi dan Bisnis. Saya akan mengambil topik tentang harga emas. Karena harga emas sering digunakan sebagai standar nilai mata uang dunia serta harga yang fluktuatif mengikuti kondisi pasar, maka prediksi harga emas sangat dibutuhkan bagi banyak orang yang sering berinvestasi pada instrumen ini. Proyek ini bertujuan untuk memprediksi harga optimal emas berdasarkan data-data pada tahun sebelumnya.
@@ -56,6 +56,8 @@ Dengan menggunakan model RF regresi, model bekerja dengan cara kumpulan algoritm
 Parameter yang digunakan (n_estimators = 50, learning_rate = 0.05, random_state = 55)
 Dengan menggunakan model Boosting Algorithm, model bekerja dengan membangun model dari data latih. Kemudian ia membuat model kedua yang bertugas memperbaiki kesalahan dari model pertama. Model ditambahkan sampai data latih terprediksi dengan baik atau telah mencapai jumlah maksimum model untuk ditambahkan. Lalu menggabungkan beberapa model sederhana dan dianggap lemah (weak learners) sehingga membentuk suatu model yang kuat (strong ensemble learner).
 
+
+![image](https://user-images.githubusercontent.com/59044624/147039338-f16da2e4-dfbb-4713-a70c-f88e8b049800.png)
 
 - Data dari dataset : 1317.7
 - Prediksi_KNN : 1368.7
@@ -146,7 +148,7 @@ Pada tahapan ini, kita menghitung cosine similarity dataframe cvec_matrix yang k
 
 Selanjutnya adalah matriks kesamaan setiap judul buku dengan menampilkan judul buku dalam 5 sampel kolom (axis = 1) dan 10 sampel baris (axis=0).
 
-![image](https://user-images.githubusercontent.com/59044624/147038483-e0f9f464-d370-493e-81a6-feab1d5c4ed0.png)
+![dataa](https://user-images.githubusercontent.com/59044624/147040171-992197be-0cfc-474b-904a-ad3f96cf2098.JPG)
 
 Dapat dilihat hasilnya, pada nilai 1.0 itu menandakan bahwa judul buku tersebut memiliki kesamaan. Sedangkan pada nilai 0.0 itu menandakan bahwa judul buku tersebut tidak memiliki kesamaan. Begitulah cara metrik ini bekerja pada model.
 
@@ -158,7 +160,7 @@ Metrik yang akan kita gunakan pada prediksi ini adalah Precision. Precision dide
 
 Ini adalah contoh rekomendasi buku dari pencarian buku 'Murder in mesopotamia'.
 
-![image](https://user-images.githubusercontent.com/59044624/147038533-9d286f02-bf44-45c4-9366-c0fbe9610f20.png)
+![dataa2](https://user-images.githubusercontent.com/59044624/147040312-0aca7bd2-937e-4471-a995-3c0fcfc28e21.JPG)
 
 Buku 'Murder in Mesopotamia' memiliki kategori Detective and mystery stories. Lalu sistem rekomendasi juga akan merekomendasikan 5 judul buku yang memiliki kategori yang sama yaitu Detective and Mystery Stories.
 
