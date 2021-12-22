@@ -1,4 +1,4 @@
-# Portofolio
+# kelvin_portofolio
 Data science portofolio
 
 # Project 1: [Predictive Analytics](https://github.com/kola283/Predictive-Analysis)
