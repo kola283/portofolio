@@ -55,10 +55,10 @@ Parameter yang digunakan (n_estimators = 50, learning_rate = 0.05, random_state 
 Dengan menggunakan model Boosting Algorithm, model bekerja dengan membangun model dari data latih. Kemudian ia membuat model kedua yang bertugas memperbaiki kesalahan dari model pertama. Model ditambahkan sampai data latih terprediksi dengan baik atau telah mencapai jumlah maksimum model untuk ditambahkan. Lalu menggabungkan beberapa model sederhana dan dianggap lemah (weak learners) sehingga membentuk suatu model yang kuat (strong ensemble learner).
 
 
-Data dari dataset : 1317.7
-Prediksi_KNN : 1368.7
-Prediksi _RF : 1320.9
-Prediksi_Boosting : 1349.3
+* Data dari dataset : 1317.7
+* Prediksi_KNN : 1368.7
+* Prediksi _RF : 1320.9
+* Prediksi_Boosting : 1349.3
 
 Dapat dilihat prediksi model yang sangat mendekati nilai dari dataset adalah model RF. Maka model yang digunakan untuk pengembangan lebih lanjut adalah model RF.
 
@@ -67,9 +67,9 @@ Metrik yang akan kita gunakan pada prediksi ini adalah MSE atau Mean Squared Err
 ![Image of rumus mse](https://d17ivq9b7rppb3.cloudfront.net/original/academy/2021071619431112f1106e20559e77c855cea11d1b1479.jpeg)
 
 Keterangan:
-N = jumlah dataset
-yi = nilai sebenarnya
-y_pred = nilai prediksi
+- N = jumlah dataset
+- yi = nilai sebenarnya
+- y_pred = nilai prediksi
 
 Dengan penggunaan metrik di atas hasil yang didapat adalah saat pengujian dengan dataset bernilai 1317.7 prediksi yang didapat dari model adalah 1320.9
 Ini sudah sangat mendekati dibandingkan dua model yang lainnya.
