@@ -33,11 +33,11 @@ Variabel-variabel pada Gold Price dataset adalah sebagai berikut.
 
 Melakukan gold.info() untuk mengecek jenis tipe data apa saja yang ada pada dataset. Dan hasilnya adalah 5 data numerik yang dipakai adalah tipe float64.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/infodata.JPG?raw=true)
+![image](https://github.com/kola283/gambar/blob/main/bahan/infodata.JPG)
 
 Lalu melakukan teknik pairplot() untuk melihat keterikatan tiap fitur yang ada terhadap target price dan hasilnya adalah 3 fitur yaitu Open, High dan Low memiliki korelasi positif. Sementara fitur Chg% memiliki pola persebaran yang acak.
 
-![image](https://github.com/kola283/gambar/blob/main/bahan/korelasi.png?raw=true)
+![image](https://github.com/kola283/gambar/blob/main/bahan/korelasi.png)
 
 ## Data Preparation
 Disini dilakukan pembagian dataset menjadi data training dan data test dengan proporsi 80% data training dan 20% data latih dengan menggunakan teknik train_test_split. Hal ini sangat penting dilakukan untuk melakukan evaluasi model kedepannya. Selain menyiapkan data dengan membagi datanya, dilakukan satu teknik lagi yaitu Standarisasi. Dengan menggunakan teknik StandardScaler dari library Scikitlearn. Untuk menghindari kebocoran data maka kita melakukan teknik standarisasi pada data training terlebih dahulu dan melakukan standarisasi pada data test saat akan evaluasi model.
