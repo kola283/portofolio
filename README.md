@@ -80,7 +80,7 @@ Ini sudah sangat mendekati dibandingkan dua model yang lainnya.
 
 
 
-# Project 2: [Sistem Rekomendasi](https://github.com/kola283/Sistem-Rekomendasi)
+# Project 2: [Sistem Rekomendasi](https://colab.research.google.com/drive/1plNa_vWJSfcY01Om5jJdQjtQASZkanF0#scrollTo=SvvrwxdtWgoH)
 
 ## Project Overview
 Buku merupakan jendela dunia. Banyak ilmu yang bisa kita dapatkan dari membaca sebuah buku. Dan tentu saja, ada ribuan bahkan jutaan buku yang telah diterbitkan hingga saat ini. Untuk mendapatkan buku yang sesuai dengan apa yang kita cari mungkin agak sulit mengingat banyaknya buku-buku yang ada.  Maka dari itu proyek yang saya kerjakan di sini adalah sebuah sistem rekomendasi buku. Dimana proyek ini penting untuk dikerjakan karena akan membantu orang-orang untuk menemukan lebih banyak referensi buku sesuai dengan yang kita cari.
