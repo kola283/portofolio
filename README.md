@@ -170,3 +170,20 @@ Jadi perhitungan metriknya adalah sebagai berikut:
 - Precission = 5/5.
 
 Jadi presisinya = 100%
+
+
+# Project 3: [Sistem Klasifikasi Gambar](https://colab.research.google.com/drive/1BLQKuyk4BDwXiKDDmjvJKWMJVyiOV3Jk)
+Sistem klasifikasi gambar dengan implementasi augmentasi gambar menggunakan image data generator dan model sequential. Sistem klasifikasi gambar ini merupakah sebuah sistem yang akan membedakan 3 jenis gambar yaitu;
+1. gambar tangan membentuk kertas
+2. gambar tangan membentuk batu
+3. gambar tangan membentuk gunting
+
+Grafik akurasi dan los dari model setelah selesai dilatih
+
+![dataa3](https://user-images.githubusercontent.com/59044624/147041173-8c457132-c3e2-4a08-8eef-12e40eee4e03.JPG)
+
+Percobaan sistem untuk menklasifikasikan gambar berhasil
+
+![dataa4](https://user-images.githubusercontent.com/59044624/147041284-a8bf8681-e860-406f-8162-30281d26b021.JPG)
+
+
