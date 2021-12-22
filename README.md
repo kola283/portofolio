@@ -1,11 +1,11 @@
 # Portofolio
 Data science portofolio
 
-# Project 1: Predictive Analytics
+# Project 1: [Predictive Analytics](https://github.com/kola283/Predictive-Analysis)
 # Domain Project
 Domain yang saya ambil di sini adalah pada bidang Ekonomi dan Bisnis. Saya akan mengambil topik tentang harga emas. Karena harga emas sering digunakan sebagai standar nilai mata uang dunia serta harga yang fluktuatif mengikuti kondisi pasar, maka prediksi harga emas sangat dibutuhkan bagi banyak orang yang sering berinvestasi pada instrumen ini. Proyek ini bertujuan untuk memprediksi harga optimal emas berdasarkan data-data pada tahun sebelumnya.
 
-Artikel yang diterbitkan oleh Kompas.com mengenai penyebab harga emas sering naik dan turun. (https://money.kompas.com/read/2021/06/12/110000026/ini-penyebab-harga-emas-sering-naik-dan-turun?page=all)
+Artikel yang diterbitkan oleh Kompas.com mengenai penyebab harga emas sering naik dan turun. [link](https://money.kompas.com/read/2021/06/12/110000026/ini-penyebab-harga-emas-sering-naik-dan-turun?page=all)
 
 # Business Understanding
 Problem Statement
@@ -21,7 +21,7 @@ Dengan menggunakan pendekatan model machine learning dalam 3 algoritma yang berb
 * RF Random forest pada dasarnya adalah versi bagging dari algoritma decision tree. Jadi dalam algoritma RF kita memiliki banyak algoritma decision tree di dalamnya.
 * Boosting Algorithm Algoritma boosting bekerja dengan membangun model dari data latih. Kemudian ia membuat model kedua yang bertugas memperbaiki kesalahan dari model pertama. Model ditambahkan sampai data latih terprediksi dengan baik atau telah mencapai jumlah maksimum model untuk ditambahkan.
 Data Understanding
-Dataset yang saya pakai adalah dataset Gold Price yang berisi harga emas dari Januari 2011 sampai dengan September 2020. Dataset ini berisi 2531 baris data dan 6 kolom. Linknya adalah berikut (https://www.kaggle.com/shikhnu/gold-price).
+Dataset yang saya pakai adalah dataset Gold Price yang berisi harga emas dari Januari 2011 sampai dengan September 2020. Dataset ini berisi 2531 baris data dan 6 kolom. Linknya adalah berikut [Dataset](https://www.kaggle.com/shikhnu/gold-price).
 
 Variabel-variabel pada Gold Price dataset adalah sebagai berikut.
 
