@@ -1,5 +1,5 @@
 # kelvin_portofolio
-Data Science Portofolio
+Data Science Portofolio. You can clik in title project to go to Google Colab link
 
 # Project 1: [Predictive Analytics](https://colab.research.google.com/drive/1SMxeTdDj2fa88Mj2Cvn7Wb8_mMPJleKD)
 
